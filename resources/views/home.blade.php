@@ -1,14 +1,12 @@
 @extends('layout')
-@section('title', 'Home')
-
+@section('title', 'home')
 @section('navbar')
 @parent
-
-
+@endsection
 @section('content')
     <div class="jumbotron">
-      <h1>Welcome and Good Luck</h1>      
-      <p></p>
+      <h1>Welcome To Our Website</h1>      
+      <p>Dear Student, Best of Luck</p>
       </div>
    </div>
 @endsection 
